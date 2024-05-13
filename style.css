@@ -1,0 +1,43 @@
+.carousel-item img {
+    max-height: 70vh;
+    width: auto;
+    margin: auto; 
+}
+
+.custom-navbar {
+    background-color: #000000; 
+}
+
+.jumbotron.jumbotron-fluid.custom-jumbotron-bg {
+    background-color: black; 
+    color: white;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title, .card-text {
+    flex: 0 0 auto;  
+}
+
+.card-img-top {
+    flex-grow: 1;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    min-height: 3em;  
+    text-align: center;
+}
+
+.card-text {
+    min-height: 5em;  
+    text-align: center;
+}
+
+.sobre-nosotros p {
+    text-align: justify;
+}
